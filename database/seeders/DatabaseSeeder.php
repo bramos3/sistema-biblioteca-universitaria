@@ -32,7 +32,7 @@ class DatabaseSeeder extends Seeder
         'name' => 'Brandhon Ramos',
         'email' => 'ramosestiben03@gmail.com',
         'password' => bcrypt('123456'),
-    ]);
+    ]); 
 
     // Crear libros aleatorios
     Libro::factory(10)->create();
